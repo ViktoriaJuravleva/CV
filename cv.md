@@ -2,35 +2,32 @@
 # CONTACTS
 - Vitebs, Belarus
 
-- Email: angelina.anashkevich@gmail.com
+- Email: valeria.kovalenkogit@gmail.com
 
-- Github: https://github.com/AngelinaAnashkevich
+- Github: https://github.com/ViktoriaJuravleva
 
 # SUMMARY
-> I am a student at P.M. Masherov University of Eastern Europe, majoring in Information Resource Management. My goal is to become a professional in the field of information technology and apply my knowledge in various areas of business. I am motivated, diligent and love to learn new things. My strengths are analytical mind, communication skills, responsibility.
+> I am a student of information resources management at P.M. Masherov University of Economics and Finance. My goal is to become a professional IT-specialist and contribute to the development of the IT-industry. I am passionate about programming and strive to constantly learn and improve. My strengths are assiduity, responsibility, ease of learning, and communication skills.
 # SKILLS
 
 1. С++
 2. HTML
 3. CSS
-4. Assembler
-5. Adobe Photoshop
 
 # CODE
 ```
-int fibonacci(int n)
-{
-    if (n <= 1)
-        return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
+int factorial(int n) {
+    if(n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorial(n-1);
 }
 
-int main()
-{
+int main() {
     int n;
-    std::cout << "Enter the position of the number in the Fibonacci sequence: ";
-    std::cin >> n;
-    std::cout << "The Fibonacci number at position " << n << " is " << fibonacci(n) << std::endl;
+    cout << "Введите число: ";
+    cin >> n;
+    cout << "Факториал " << n << " равен " << factorial(n) << endl;
     return 0;
 }
 ```
