@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
@@ -28,10 +31,10 @@
 
   <section class="info-section">
     <div class="info-img">
-      <img src="/photo_2023-05-12_14-06-15.jpg" alt="Your image">
+      <img src="/photo_2023-05-12_14-06-07.jpg" alt="Your image">
     </div>
     <div class="info-text">
-      <h2>Ангелина Анашкевич</h2>
+      <h2>Виктория Журавлева</h2>
       <p>Студентка 1 курса УИР ВГУ им. П. М. Машерова</p>
     </div>
   </section>
@@ -43,13 +46,13 @@
       <h2 id="nav1">CONTACTS</h2>
       <ul>
         <li>Vitebs, Belarus</li>
-        <li>Email: angelina.anashkevich@gmail.com</li>
-        <li>Github: https://github.com/AngelinaAnashkevich</li>
+        <li>Email: <a href="mailto:viktoria.juravlevagit@gmail.com" class="link_git">viktoria.juravlevagit@gmail.com</a></li>
+        <li>Github: <a href="https://github.com/ViktoriaJuravleva" class="link_git">https://github.com/ViktoriaJuravleva</a> </li>
       </ul>
     </section>
     <section class="section">
       <h2 id="nav2">SUMMARY</h2>
-      <p>I am a student at P.M. Masherov University of Eastern Europe, majoring in Information Resource Management. My goal is to become a professional in the field of information technology and apply my knowledge in various areas of business. I am motivated, diligent and love to learn new things. My strengths are analytical mind, communication skills, responsibility.</p>
+      <p>I am a student of information resources management at VSU named after P.M. Masherov . My goal is to become a professional IT-specialist and contribute to the development of the IT-industry. I am passionate about programming and strive to constantly learn and improve. My strengths are assiduity, responsibility, ease of learning, and communication skills.</p>
     </section>
     <section class="section">
       <h2 id="nav3">SKILLS</h2>
@@ -57,8 +60,6 @@
         <li>C++</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Assembler</li>
-        <li>Adobe Photoshop</li>
       </ul>
       
     </section>
@@ -66,31 +67,32 @@
       <h2 id="nav4">CODE</h2>
       <h1>My Fibonacci program</h1>
     <pre>
-      int fibonacci(int n) {
-        if (n <= 1)
-          return n;
-        return fibonacci(n - 1) + fibonacci(n - 2);
-      }
-
-      int main() {
+      int factorial(int n) {
+        if(n == 0 || n == 1)
+            return 1;
+        else
+            return n * factorial(n-1);
+    }
+    
+    int main() {
         int n;
-        std::cout << "Enter the position of the number in the Fibonacci sequence: ";
-        std::cin >> n;
-        std::cout << "The Fibonacci number at position " << n << " is " << fibonacci(n);
+        cout << "Введите число: ";
+        cin >> n;
+        cout << "Факториал " << n << " равен " << factorial(n) << endl;
         return 0;
-      }
+    }
     </pre>
     </section>
     <section class="section">
       <h2 id="nav5">COURSES</h2>
       <ul>
         <li>Экономика организации</li>
-        <li>Высшая математика</li>
+        <li>Основы алгоритмизации и программирования</li>
       </ul>
     </section>
     <section class="section">
       <h2 id="nav6">PROJECTS</h2>
-      <p>Моё СV на GitHub: <a class="link_git" href="https://AngelinaAnashkevich.github.io/CV">https://AngelinaAnashkevich.github.io/CV</a></p>
+      <p>Моё СV на GitHub: <a class="link_git" href="https://viktoriajuravleva.github.io/CV/cv">https://viktoriajuravleva.github.io/CV/cv</a></p>
     </section>
     <section class="section">
       <h2 id="nav7">EDUCATION</h2>
@@ -102,7 +104,7 @@
     </section>
   </div>
   <footer class="footer">
-    <div class="container footer-container"><div>© 2023 <a href="https://github.com/AngelinaAnashkevich" class="github nav-link">AngelinaAnashkevich</a></div></div>
+    <div class="container footer-container"><div>© 2023 <a href="https://github.com/ViktoriaJuravleva" class="github nav-link">ViktoriaJuravleva</a></div></div>
   </footer>
 </body>
 </html>
