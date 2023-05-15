@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: 'Josefin Sans';
 }
 img {
   border-radius: 50%;
@@ -40,7 +41,7 @@ img {
 
 .info-img img {
   max-width: 100%;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .info-text {
@@ -63,7 +64,7 @@ img {
 .photo{
   width: 2px;
   height: 2px;
-  background-color: #6005f3;
+  background-color: rgba(241, 60, 217, 0.5);
   ;
   width: 90%;
 }
@@ -71,7 +72,7 @@ img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #6005f3;
+  background-color: rgba(241, 60, 217, 0.5);
   color: #fff;
   padding: 10px;
 }
@@ -101,7 +102,7 @@ li {
 hr{
   width: 250px;
   height: 20px;
-  background-color: #6005f3;
+  background-color: rgba(241, 60, 217, 0.5);
   
   width: 95%;
 }
@@ -117,7 +118,7 @@ hr{
   padding: 10px 10px 35px;
   width: calc(50% - 20px);
   box-sizing:border-box;
-  box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 4px 10px rgba(241, 60, 217, 0.5);
   padding-left: 50px;
   padding-right: 50px;
 
@@ -215,7 +216,7 @@ hr{
   transform: rotate(-45deg) translate(5px, -5px);
   }
   .footer {
-    background-color: #6005f3;
+    background-color: rgba(241, 60, 217, 0.5);
     padding: 20px;
   }
   footer {
