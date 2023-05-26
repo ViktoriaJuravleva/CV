@@ -46,6 +46,6 @@ int main() {
 
 # ENGLISH
 
-* A2+ Pre-Intermediate
+* C+ Pre-Intermediate
 
 
